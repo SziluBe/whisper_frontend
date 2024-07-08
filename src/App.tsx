@@ -3,7 +3,7 @@ import { AudioRecorder } from 'react-audio-voice-recorder';
 
 export default function App() {
 
-  async () => {
+  async function getData() {
     try {
       const response = await fetch('https://api.runpod.ai/v2/kpfxevjxqeqod5/runsync?=', {
         method: 'POST',
